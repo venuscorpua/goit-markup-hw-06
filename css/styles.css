@@ -53,6 +53,7 @@ img {
   display: inline-block;
   padding: 17px 0;
 }
+
 .logo-span {
   color: #2e2f42;
   font-family: 'Raleway', sans-serif;
@@ -62,7 +63,7 @@ img {
   text-transform: uppercase;
 }
 .container {
-  max-width: 320px;
+  width: 320px;
   padding: 0 16px;
   margin: 0 auto;
 }
