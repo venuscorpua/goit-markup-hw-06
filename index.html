@@ -47,6 +47,16 @@
             </li>
           </ul>
         </address>
+        <button class="menu-open-btn" type="button">
+          <svg
+            class="menu-open-btn-icon"
+            width="24"
+            height="24"
+            aria-label="mobile menu open icon"
+          >
+            <use href="./images/icons.svg#icon-burger-btn"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -135,12 +145,16 @@
           </ul>
         </div>
       </section>
-      <section class="section team">
+      <section class="team-cards-section">
         <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-list-item">
               <img
+                srcset="
+                  ./images/mark-guerrero.jpg 1x,
+                  ./images/mark-guerrero@2x.jpg  2x
+                "
                 src="./images/mark-guerrero.jpg"
                 alt="Mark Guerrero photo"
                 width="264"
@@ -498,7 +512,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="icon-close" width="8" height="8">
@@ -583,6 +597,68 @@
           </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="container mobile-menu-container">
+        <button type="button" class="mobile-menu-close-btn">
+          <svg class="mobile-menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-normal"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-menu">
+            <li>
+              <a class="mobile-menu-link current-color" href="">Studio</a>
+            </li>
+            <li><a class="mobile-menu-link" href="">Portfolio</a></li>
+            <li><a class="mobile-menu-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="mobile-address-menu">
+          <li>
+            <a
+              class="mobile-address-link current-color"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mobile-address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-icon-list">
+          <li class="mobile-icon-item">
+            <a class="mobile-icon-link" href="#">
+              <svg class="mobile-icon-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-icon-item">
+            <a class="mobile-icon-link" href="#">
+              <svg class="mobile-icon-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-icon-item">
+            <a class="mobile-icon-link" href="#">
+              <svg class="mobile-icon-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-icon-item">
+            <a class="mobile-icon-link" href="#">
+              <svg class="mobile-icon-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </body>
