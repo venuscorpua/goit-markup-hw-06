@@ -36,7 +36,7 @@ img {
 }
 
 .section {
-  padding: 120px 0 120px 0;
+  padding: 96px 0 96px 0;
 }
 
 .logo {
@@ -196,7 +196,7 @@ img {
   color: #434455;
 }
 
-.line {
+.current-color {
   color: #404bbf;
 }
 .mobile-icon-list {
@@ -266,14 +266,13 @@ img {
   }
 
   .menu-link {
-    color: #434455;
-    font-weight: 400;
-    font-size: 12px;
+    color: #2e2f42;
+    font-weight: 500;
     text-decoration: none;
-    font-style: normal;
-    line-height: 1.16;
     letter-spacing: 0.02em;
     display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
@@ -324,9 +323,7 @@ button {
   justify-content: space-between;
   align-items: center;
 }
-.section {
-  padding: 96px 0;
-}
+ 
 .page-header {
   background-color: #ffffff;
   font-style: normal;
@@ -555,6 +552,7 @@ button {
   .team-list-item {
   }
 }
+
 @media screen and (min-width: 1158px) {
   .team-list-item {
     width: calc((100% - 72px) / 4);
