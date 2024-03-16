@@ -380,7 +380,13 @@
             <li class="portfolio-list-item">
               <div class="overlay-box">
                 <picture>
-                  
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/portfolio/desktop/project-card-2@1x.jpg 1x,
+                      ./images/portfolio/desktop/project-card-2@2x.jpg 2x
+                    "
+                  />
                   <source
                     media="(min-width:768px)"
                     srcset="
@@ -398,6 +404,7 @@
                   <img
                     src="./images/portfolio/desktop/project-card-2@1x.jpg"
                     alt="cashless-pay"
+                    width="360"
                   />
                 </picture>
                 <p class="overlay">
